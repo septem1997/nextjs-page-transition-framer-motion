@@ -1,8 +1,11 @@
+import Toggle from "./Toggle";
+
 export default function Home() {
   return (
     <section className="p-4">
       <div className="container">
         <h1 className="text-2xl font-bold">Home Page</h1>
+        <Toggle />
         <p className="w-1/2 font-medium py-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
           natus minima exercitationem perferendis hic maxime nihil officia
